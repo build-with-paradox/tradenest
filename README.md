@@ -1,5 +1,3 @@
-Here’s a **well-structured, professional, and attractive README** for your **TradeNest – Customer App**:
-
 ---
 
 # 🛒 TradeNest – Customer App
