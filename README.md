@@ -109,14 +109,12 @@ yarn dev
 
 ## 📦 Deployment
 
-|------------------------------------------|
 | Service               | Purpose          |
 | --------------------- | ---------------- |
 | **Vercel**            | Frontend Hosting |
 | **MongoDB Atlas**     | Database         |
 | **Cloudinary**        | Image Hosting    |
 | **Razorpay**          | Payments         |
-|------------------------------------------|
 
 ---
 
