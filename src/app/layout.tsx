@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import SessionProviderWrapper from "./SessionProviderWrapper";
@@ -8,15 +8,16 @@ import NavBar from "@/components/common/NavBar";
 import Footer from "@/components/common/Footer";
 import Head from "next/head";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const robotoMono = Roboto_Mono({
+  variable: "--font-roboto-mono",
   subsets: ["latin"],
 });
+
 
 export const metadata: Metadata = {
   title: "Trade Nest",
@@ -34,9 +35,8 @@ export default function RootLayout({
         <script src="https://checkout.razorpay.com/v1/checkout.js" async></script>
       </head>
 
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-gray-50`}
-      >
+      <body className={`${inter.variable} ${robotoMono.variable} bg-gray-50`}>
+
         <Toaster position="top-center" reverseOrder={false} aria-live="assertive" />
 
         <SessionProviderWrapper>
