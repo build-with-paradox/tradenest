@@ -6,16 +6,17 @@ import SessionProviderWrapper from "./SessionProviderWrapper";
 import { AuthProvider } from "@/components/contextapis/authentication/AuthProvider";
 import NavBar from "@/components/common/NavBar";
 import Footer from "@/components/common/Footer";
-import Head from "next/head";
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 
