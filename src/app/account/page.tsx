@@ -1,6 +1,6 @@
 "use client"
 
-import Profile from '../../components/profile/Profile'
+import Profile from '@/components/profile/Profile'
 import React from 'react'
 
 const UserProfile = () => {
