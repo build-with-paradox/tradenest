@@ -1,12 +1,12 @@
 "use client"
 
-import SignIn from '@/components/authentication/SignIn'
+import SignInComponent from '@/components/authentication/SignInComponent'
 import React from 'react'
 
 const SignInPage = () => {
   return (
     <>
-        <SignIn />
+        <SignInComponent />
     </>
   )
 }

@@ -8,7 +8,7 @@ import { createUserService } from "@/apiservice/authservice";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
-const Signup = () => {
+const SignUpComponent = () => {
   const [user, setUser] = useState({ username: "", email: "", password: "" });
   const [errors, setErrors] = useState({ username: "", email: "", password: "" });
 
@@ -189,4 +189,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUpComponent;

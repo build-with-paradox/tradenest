@@ -8,7 +8,7 @@ import { toast } from "react-hot-toast";
 import { signIn } from "next-auth/react";
 
 
-const SignIn = () => {
+const SignInComponent = () => {
   const router = useRouter();
   const [user, setUser] = useState({ email: "", password: "" });
 
@@ -137,4 +137,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default SignInComponent;
