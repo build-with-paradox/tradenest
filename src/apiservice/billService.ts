@@ -2,7 +2,7 @@ import axios from "axios";
 import { formatErrorMessages } from "@/utils/utilfunctions";
 
 export const getBillSummaryService = async()=> { 
-    const getBillSummaryUrl = `${process.env.NEXT_PUBLIC_URL}/api/bill/`;
+    const getBillSummaryUrl = `${process.env.NEXT_PUBLIC_URL}api/bill/`;
 
     try {
         const response = await axios.get(getBillSummaryUrl, { 

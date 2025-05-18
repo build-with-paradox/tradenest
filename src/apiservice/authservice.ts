@@ -8,7 +8,7 @@ export const createUserService = async ({
     email,
     password
 }: UserInterface): Promise<CreateUserResponseInterface> => {
-    const signupurl = `${process.env.NEXT_PUBLIC_URL}/api/auth/signup/`
+    const signupurl = `${process.env.NEXT_PUBLIC_URL}api/auth/signup/`
 
     try {
         const response = await axios.post(

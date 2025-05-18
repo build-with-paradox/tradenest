@@ -2,7 +2,7 @@ import { formatErrorMessages } from "@/utils/utilfunctions";
 import axios from "axios";
 
 export const getAvailableProducts = async()=> { 
-    const getAvailableProductsUrl = `${process.env.NEXT_PUBLIC_URL}/api/products`;
+    const getAvailableProductsUrl = `${process.env.NEXT_PUBLIC_URL}api/products`;
     try {
         const response = await axios.get(getAvailableProductsUrl, {
             headers: {

@@ -2,7 +2,7 @@ import { formatErrorMessages } from "@/utils/utilfunctions";
 import axios from "axios";
 
 export const getUserOrdersService = async()=>{ 
-    const getOrdersUrl = `${process.env.NEXT_PUBLIC_URL}/api/orders/getUserOrders`;
+    const getOrdersUrl = `${process.env.NEXT_PUBLIC_URL}api/orders/getUserOrders`;
     
     try {
         const response = await axios.get(getOrdersUrl, {

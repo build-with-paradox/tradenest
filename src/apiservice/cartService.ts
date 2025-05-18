@@ -2,7 +2,7 @@ import axios from "axios";
 import { formatErrorMessages } from "@/utils/utilfunctions";
 
 export const createCartService = async (productId: string) => {
-  const createCartUrl = `${process.env.NEXT_PUBLIC_URL}/api/cart/addtocart/`;
+  const createCartUrl = `${process.env.NEXT_PUBLIC_URL}api/cart/addtocart/`;
 
   try {
     const response = await axios.post(
@@ -40,7 +40,7 @@ export const createCartService = async (productId: string) => {
 
 
 export const getCartService = async () => {
-  const getCartUrl = `${process.env.NEXT_PUBLIC_URL}/api/cart/`;
+  const getCartUrl = `${process.env.NEXT_PUBLIC_URL}api/cart/`;
 
   try {
     const response = await axios.get(
@@ -77,7 +77,7 @@ export const getCartService = async () => {
 
 
 export const updateProductQuantity = async(productId: string, action:string)=>{ 
-  const updateCartItemQuantityUrl = `${process.env.NEXT_PUBLIC_URL}/api/cart/updatequantity/`;
+  const updateCartItemQuantityUrl = `${process.env.NEXT_PUBLIC_URL}api/cart/updatequantity/`;
     try {
       const response = await axios.put(updateCartItemQuantityUrl, { productId: productId, action: action })
 
