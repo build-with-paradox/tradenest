@@ -2,7 +2,7 @@ import axios from "axios";
 import { formatErrorMessages } from "@/utils/utilfunctions";
 
 export const switchWishlistService = async (productId: string) => {
-  const wishlistUrl = `${process.env.NEXT_PUBLIC_URL}api/wishlist/switchwishlist/`;
+  const wishlistUrl = `${process.env.NEXT_PUBLIC_URL}/api/wishlist/switchwishlist/`;
 
   try {
     const response = await axios.post(
@@ -47,7 +47,7 @@ export const switchWishlistService = async (productId: string) => {
 
 
 export const getWishListService = async()=> { 
-    const getWishlistUrl = `${process.env.NEXT_PUBLIC_URL}api/wishlist/`;
+    const getWishlistUrl = `${process.env.NEXT_PUBLIC_URL}/api/wishlist/`;
 
     try {
         const response = await axios.get(getWishlistUrl,
