@@ -44,7 +44,7 @@ const PopularProducts = () => {
     <div className="bg-gray-100 shadow-xs rounded-xl max-w-[72rem] w-full mx-auto px-4 py-6 mt-6">
       <h1 className="text-2xl font-bold text-gray-900 ml-3">Popular Products</h1>
       <p className="text-sm text-gray-600 mt-2 ml-3 mb-6">
-        Here's a snapshot of{" "}
+        Here&apos;s a snapshot of{" "}
         <span className="text-gray-900 font-semibold">Popular Products</span> people are buying frequently.
       </p>
 
