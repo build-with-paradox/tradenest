@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 export const getProfileService = async () => {
-  const getProfileUrl = `${process.env.NEXT_PUBLIC_URL}api/profile/`;
+  const getProfileUrl = `${process.env.NEXT_PUBLIC_URL}/api/profile/`;
 
   try {
     const response = await axios.get(getProfileUrl, {
@@ -44,7 +44,7 @@ export const updateProfileService = async ({
   phone,
   address,
 }: UserProfileInterface) => {
-  const updateProfileUrl = `${process.env.NEXT_PUBLIC_URL}api/profile/update/`;
+  const updateProfileUrl = `${process.env.NEXT_PUBLIC_URL}/api/profile/update/`;
 
   try {
     const response = await axios.put(updateProfileUrl, 
