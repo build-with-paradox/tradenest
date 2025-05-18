@@ -21,7 +21,7 @@
     "keen-slider": "^6.8.6",
     "lucide-react": "^0.487.0",
     "mongoose": "^8.13.2",
-    "next": "15.2.2",
+    "next": "^15.3.2",
     "next-auth": "^4.24.11",
     "rate-limiter-flexible": "^7.0.0",
     "razorpay": "^2.9.6",
