@@ -24,7 +24,7 @@ const SignUpComponent = () => {
   };
 
   const validateForm = () => {
-    let newErrors = { username: "", email: "", password: "" };
+    const newErrors = { username: "", email: "", password: "" };
     let isValid = true;
 
     if (!user.username) {

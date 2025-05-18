@@ -12,7 +12,7 @@ export const GET = async (req: NextRequest) => {
     const category = searchParams.get("category");
     const productSearch = searchParams.get("productSearch");
 
-    let query: any = {
+    const query: any = {
       approved: true,
       is_featured: true,
     };

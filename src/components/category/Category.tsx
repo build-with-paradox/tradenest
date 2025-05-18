@@ -49,7 +49,7 @@ const Category: React.FC<CategoryProps> = ({ category, search }) => {
                     🛍️ Explore {category === "All" ? "All" : `${category} based`} Products
                 </h1>
                 <p className="text-base text-gray-600 mt-2 ml-3 mb-6">
-                    Your Results for <b>"{search}"</b>
+                    Your Results for <b>&quot;{search}&quot;</b>
                     <span className="text-gray-900 font-semibold ml-1">Trade Nest Shop</span>.
                 </p>
 
