@@ -17,6 +17,7 @@ export const POST = async (req: NextRequest) => {
     try {
         await mongooseConnection();
 
+        console.log("razorpay", razorpay)
         const sessionToken = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });
         if (!sessionToken || !sessionToken.sub) {
             return NextResponse.json({ error: "Unauthorized access, please sign in" }, { status: 401 });

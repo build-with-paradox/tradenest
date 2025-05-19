@@ -81,7 +81,7 @@ export const getProductDetail = async(id: string)=> {
 
 
 export const getPopularProductsService = async () => {
-  const url = `${process.env.NEXT_PUBLIC_URL}api/products/popularProducts`;
+  const url = `${process.env.NEXT_PUBLIC_URL}/api/products/popularProducts`;
 
   try {
     const response = await axios.get(url, {
