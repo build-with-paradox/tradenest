@@ -115,7 +115,7 @@ const NavBar: React.FC = () => {
           {/* Right Icons */}
           <div className="flex items-center gap-x-6 -ml-10">
             <Link
-              href="https://your-seller-link.com"
+              href="https://nest-seller.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm font-medium text-gray-600"
